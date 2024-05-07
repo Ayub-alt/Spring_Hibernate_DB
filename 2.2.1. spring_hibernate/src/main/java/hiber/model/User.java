@@ -2,7 +2,7 @@ package hiber.model;
 
 import javax.persistence.*;
 
-@Entity
+@Entity()
 @Table(name = "users")
 public class User {
 
